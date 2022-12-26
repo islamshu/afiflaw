@@ -25,6 +25,11 @@
           <span class="menu-title">خدماتنا    </span></a>
      </li>
      <li class="nav-item  ">
+      <a href="{{ route('blogs.index') }}">
+          <i class="fa fa-slideshare"></i>
+          <span class="menu-title">المدونة    </span></a>
+     </li>
+     <li class="nav-item  ">
       <a href="{{ route('clients.index') }}">
           <i class="fa fa-slideshare"></i>
           <span class="menu-title">عملائنا    </span></a>
