@@ -37,7 +37,10 @@ Route::post('login','App\Http\Controllers\HomeController@login_dashboard_post')-
 Route::post('store_message','App\Http\Controllers\HomeController@store_message')->name('store_message');
 Route::get('register','App\Http\Controllers\HomeController@register')->name('register');
 Route::get('خدماتنا','App\Http\Controllers\HomeController@services')->name('service.front');
-Route::get('service/{slug}','App\Http\Controllers\HomeController@singe_services')->name('singe_services');
+Route::get('المدونة','App\Http\Controllers\HomeController@blogs')->name('blogs.front');
+Route::get('التدوينة/{slug}','App\Http\Controllers\HomeController@single_blog')->name('single_blog');
+
+Route::get('الحدمة/{slug}','App\Http\Controllers\HomeController@singe_services')->name('singe_services');
 
 Route::post('register','App\Http\Controllers\HomeController@post_register')->name('post_register');
 

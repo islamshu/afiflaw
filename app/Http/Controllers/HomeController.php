@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\About;
+use App\Models\Blog;
 use App\Models\Category;
 use App\Models\Client;
 use App\Models\Contact;
@@ -44,6 +45,44 @@ class HomeController extends Controller
     public function login_dashboard()
     {
         return view('dashboard.auth.login');
+    }
+    public function single_blog($slug){
+        $blog = Blog::where('slug',$slug)->first();
+        if($blog){
+            $first = Slider::first();
+            $about = About::first();
+            $whyus = WhyUs::orderby('sort','asc')->get();
+            $services = Service::get();
+            $clients = Client::orderby('id','desc')->get();
+    
+    
+            return view('frontend.blog')
+            ->with('first',$first)
+            ->with('blog',$blog)
+            ->with('about',$about)
+            ->with('whyus',$whyus)
+            ->with('services',$services)
+            ->with('clients',$clients);
+        }
+    }
+    public function blogs(){
+        $blogs = Blog::orderby('id','desc')->paginate(8);
+        $first = Slider::first();
+        $about = About::first();
+        $whyus = WhyUs::orderby('sort','asc')->get();
+        $services = Service::get();
+        $clients = Client::orderby('id','desc')->get();
+
+
+        return view('frontend.blogs')
+        ->with('first',$first)
+        ->with('about',$about)
+        ->with('whyus',$whyus)
+        ->with('services',$services)
+        ->with('clients',$clients)
+        ->with('blogs',$blogs);
+
+
     }
     public function register()
     {

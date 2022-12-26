@@ -93,7 +93,7 @@
     <!-- Website CSS variables -->
     <!-- Custom CSS -->
     <!-- Minimize CSS files -->
-    <link rel="stylesheet" href="https://cdn-cms-s.f-static.net/versions/2/css/minimize_main_rtl.css?v=n82372"
+    <link rel="stylesheet" href="https://cdn-cms-s.f-static.net/versions/2/css/minimize_main_rtl.css?v=n82481"
         type="text/css" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{{ asset('front/css/websiteCSS.css') }}" class="reloadable-css" type="text/css">
@@ -106,12 +106,12 @@
             <i class="fa fa-whatsapp my-float"></i>
         </a>
         <div id="websiteHeader">
-            <nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-full">
+            <nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top {{ (request()->is('/')) ? '' : 'opacity-full affix' }}   ">
                 <div class="site_container">
                     <div class="navbar-header"> <a href="/"
                             class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
                                 alt="{!! get_general_value('title') !!}" class="img-responsive"
-                                src="images/400_5c75087fce841.png"><span
+                                src="{{ asset('uploads/'.get_general_value('image')) }}"><span
                                 class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a>
                     </div>
                     <div id="top-menu">
@@ -167,23 +167,9 @@
             <div class="navbar-header"> <a href="/"
                     class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
                         alt="{!! get_general_value('title') !!}" class="img-responsive"
-                        src="images/400_5c75087fce841.png"><span
+                        src="{{ asset('uploads/'.get_general_value('image')) }}"><span
                         class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a> </div>
-            <div class="navPagesRight">
-                <ul class="navActions nav navbar-nav">
-                    <!-- Show header search -->
-                    <li class="header-search-wrapper"><a data-close-location="right" class="actionButton"
-                            role="button" data-container="body" data-toggle="search_menuCallActionIcons"><i
-                                class="svg-m s123-icon-converter " data-icon-name="search"
-                                style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/search.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/search.svg?v=2');"
-                                data-ie11-classes="" alt="search">&nbsp;</i></a></li> <!-- Cart -->
-                    <li class="header-cart-wrapper orderOpenCart "><a class="actionButton btn-primary-action-button-4"
-                            role="button"><i class="svg-m s123-icon-converter " data-icon-name="shopping-cart"
-                                style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/shopping-cart.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/shopping-cart.svg?v=2');"
-                                data-ie11-classes="" alt="shopping-cart">&nbsp;</i><span class="count"></span></a>
-                    </li>
-                </ul>
-            </div>
+           
         </nav>
         <div id="top-menu-mobile" style="display:none;">
             <ul>
@@ -191,40 +177,17 @@
                 <li class="moduleMenu active"><a class="page-unique homepageMenu" href="/"><span
                             class="txt-container">الرئيسية</span></a></li>
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="/%D8%A7%D9%84%D9%82%D9%8A%D9%85-%D9%88%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%AF%D8%A6"><span
-                            class="txt-container">القيم والمبادئ</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5c5604f252934"><a class="page-unique"
-                        href="/%D9%86%D8%A8%D8%B0%D8%A9-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D9%8A%D8%A9-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8"><span
-                            class="txt-container">نبذة تعريفية عن المكتب</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5c55ed7f97c7b"><a class="page-unique"
-                        href="/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%86%D8%A7"><span
-                            class="txt-container">خدماتنا</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5f5e3fd6347dc"><a class="page-unique"
-                        href="/%D8%AD%D8%AC%D8%B2-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9"><span
-                            class="txt-container">حجز استشارة قانونية</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5ae063395d6db"><a class="page-unique"
-                        href="/%D9%81%D8%B1%D9%8A%D9%82-%D8%B9%D9%85%D9%84%D9%86%D8%A7"><span
-                            class="txt-container">فريق
-                            عملنا</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5c5cbb76e73b5"><a class="page-unique"
-                        href="/%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81"><span class="txt-container">التوظيف
-                        </span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5c5ce32308d97"><a class="page-unique"
-                        href="/%D8%A7%D9%84%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9"><span
-                            class="txt-container">الأسئلة الشائعة</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5cc992d272b87"><a class="page-unique"
-                        href="/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9"><span
-                            class="txt-container">المدونة</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="5ae041d1d2fe5"><a class="page-unique"
-                        href="/%D9%84%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D9%85%D8%B9%D9%86%D8%A7"><span
-                            class="txt-container">للتواصل معنا</span></a></li> <!-- Website Footer Pages -->
-                <li class="moduleMenu separate">__</li>
-                <li class="moduleMenu" data-menu-module-id="62f20b9338fc5"><a class="page-unique"
-                        href="/%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8"><span
-                            class="txt-container">شهادات المكتب</span></a></li>
-                <li class="moduleMenu" data-menu-module-id="62f21b3139461"><a class="page-unique"
-                        href="/%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%86%D8%AD%D9%86"><span class="txt-container">لماذا
-                            نحن؟</span></a></li>
+                        href="/#section-5c5604f252934-title"><span
+                            class="txt-container">من نحن </span></a></li>
+                            <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                                href="/#section-62f21b3139461-title"><span
+                                    class="txt-container">لماذا نحن </span></a></li>
+                                    <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                                        href="خدماتنا"><span
+                                            class="txt-container">خدماتنا  </span></a></li>
+                                            <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                                                href="المدونة"><span
+                                                    class="txt-container">المدونة  </span></a></li>
             </ul>
         </div>
 

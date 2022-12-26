@@ -1,5 +1,7 @@
 @extends('layouts.forntend')
 @section('content')
+<div id="s123PjaxMainContainer">
+    <div id="s123ModulesContainer" class="s123-content-area s123-modules-container">
     <section id="section-5c55ed7f97c7b" class="s123-page-data s123-module s123-page-data-services bg-primary">
         <div class="breadcrumb-wrap noBackground">
             <ol class="breadcrumb container" style="visibility: hidden;">
@@ -38,4 +40,6 @@
             </div>
         </div>
     </section>
+    </div>
+</div>
 @endsection
