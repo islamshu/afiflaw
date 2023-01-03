@@ -121,6 +121,11 @@
                                     <span class="txt-container">الرئيسية</span>
                                 </a>
                             </li>
+                            <li class="moduleMenu {{ (request()->is('القيم-المباديء')) ? 'active' : '' }} ">
+                                <a class="page-unique homepageMenu s123-fast-page-load"href="{{ route('pren.front') }}">
+                                    <span class="txt-container">القيم والمباديء </span>
+                                </a>
+                            </li>
                             <li class="moduleMenu {{ (request()->is('/#section-5c5604f252934-title')) ? 'active' : '' }} ">
                                 <a class="page-unique homepageMenu s123-fast-page-load"href="/#section-5c5604f252934-title">
                                     <span class="txt-container">من نحن</span>
@@ -142,9 +147,19 @@
                                         <span class="txt-container">لماذا نحن </span>
                                     </a>
                                 </li>
+                                <li class="moduleMenu {{ (request()->is('/فريقنا')) ? 'active' : '' }} ">
+                                    <a class="page-unique homepageMenu s123-fast-page-load"href="{{ route('teams.front') }}">
+                                        <span class="txt-container">فريق عملنا  </span>
+                                    </a>
+                                </li>
                                 <li class="moduleMenu {{ (request()->routeIs('service.front')) ? 'active' : '' }} ">
                                     <a class="page-unique homepageMenu s123-fast-page-load" href="{{ route('service.front') }}">
                                         <span class="txt-container">خدماتنا</span>
+                                    </a>
+                                </li>
+                                <li class="moduleMenu {{ (request()->routeIs('blogs.front')) ? 'active' : '' }} ">
+                                    <a class="page-unique homepageMenu s123-fast-page-load" href="{{ route('blogs.front') }}">
+                                        <span class="txt-container">المدونة</span>
                                     </a>
                                 </li>
                         

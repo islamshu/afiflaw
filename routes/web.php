@@ -7,10 +7,12 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactContoller;
 use App\Http\Controllers\FteureController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PrinciplesController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SliderController;
 use App\Http\Controllers\StripePaymentController;
+use App\Http\Controllers\TeamController;
 use App\Http\Controllers\WhyUsController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,6 +39,11 @@ Route::post('login','App\Http\Controllers\HomeController@login_dashboard_post')-
 Route::post('store_message','App\Http\Controllers\HomeController@store_message')->name('store_message');
 Route::get('register','App\Http\Controllers\HomeController@register')->name('register');
 Route::get('خدماتنا','App\Http\Controllers\HomeController@services')->name('service.front');
+Route::get('فريقنا','App\Http\Controllers\HomeController@teams')->name('teams.front');
+Route::get('القيم-المباديء','App\Http\Controllers\HomeController@pren')->name('pren.front');
+
+
+
 Route::get('المدونة','App\Http\Controllers\HomeController@blogs')->name('blogs.front');
 Route::get('التدوينة/{slug}','App\Http\Controllers\HomeController@single_blog')->name('single_blog');
 
@@ -54,11 +61,21 @@ Route::delete('delete_cart/{id}','App\Http\Controllers\CartController@destroy')-
     Route::get('logout','App\Http\Controllers\HomeController@logout')->name('logout');
     Route::get('sliders',[SliderController::class,'index'])->name('sliders.index');
     Route::post('sliders',[SliderController::class,'store'])->name('sliders.store');
+    Route::post('get_form_category',[SliderController::class,'store'])->name('sliders.store');
+
+    
+    
     Route::resource('services',ServiceController::class);
     Route::resource('clients',ClientController::class);
     Route::resource('whyus',WhyUsController::class);
     Route::resource('blogs',BlogController::class);
     Route::resource('contacts',ContactContoller::class);
+    Route::resource('principles',PrinciplesController::class);
+    Route::post('get_form_principle',[PrinciplesController::class,'get_form_principle'])->name('get_form_principle');
+    Route::resource('teams',TeamController::class);
+    Route::post('get_form_team',[TeamController::class,'get_form_team'])->name('get_form_team');
+
+    
     Route::get('about',[AboutController::class,'index'])->name('about.index');
     Route::post('about',[AboutController::class,'store'])->name('about.store');
     Route::get('setting',[HomeController::class,'get_setting'])->name('get_setting');

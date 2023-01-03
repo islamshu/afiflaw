@@ -39,6 +39,16 @@
           <i class="fa fa-slideshare"></i>
           <span class="menu-title">طلبات التواصل    </span></a>
      </li>
+     <li class="nav-item  ">
+      <a href="{{ route('principles.index') }}">
+          <i class="fa fa-slideshare"></i>
+          <span class="menu-title">القيم والمباديء     </span></a>
+     </li>
+     <li class="nav-item  ">
+      <a href="{{ route('teams.index') }}">
+          <i class="fa fa-slideshare"></i>
+          <span class="menu-title">فريق عملنا      </span></a>
+     </li>
      <li class="nav-item has-sub ">
       <a href="#">
           <i class="fa fa-user-circle"></i>

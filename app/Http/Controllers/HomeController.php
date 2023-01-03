@@ -12,6 +12,7 @@ use App\Models\General;
 use App\Models\Product;
 use App\Models\Service;
 use App\Models\Slider;
+use App\Models\Team;
 use App\Models\User;
 use App\Models\WhyUs;
 use App\Notifications\LaravelTelegramNotification;
@@ -31,12 +32,31 @@ class HomeController extends Controller
         $whyus = WhyUs::orderby('sort','asc')->get();
         $services = Service::get();
         $clients = Client::orderby('id','desc')->get();
+        $teams = Team::get(); 
 
 
         return view('frontend.index')
         ->with('first',$first)
         ->with('about',$about)
         ->with('whyus',$whyus)
+        ->with('teams',$teams)
+        ->with('services',$services)
+        ->with('clients',$clients);
+    }
+    public function pren(){
+        $first = Slider::first();
+        $about = About::first();
+        $whyus = WhyUs::orderby('sort','asc')->get();
+        $services = Service::get();
+        $clients = Client::orderby('id','desc')->get();
+        $teams = Team::get(); 
+
+
+        return view('frontend.pens')
+        ->with('first',$first)
+        ->with('about',$about)
+        ->with('whyus',$whyus)
+        ->with('teams',$teams)
         ->with('services',$services)
         ->with('clients',$clients);
     }
@@ -64,6 +84,23 @@ class HomeController extends Controller
             ->with('services',$services)
             ->with('clients',$clients);
         }
+    }
+    public function teams(){
+       
+            $first = Slider::first();
+            $about = About::first();
+            $whyus = WhyUs::orderby('sort','asc')->get();
+            $services = Service::get();
+            $clients = Client::orderby('id','desc')->get();
+    
+    
+            return view('frontend.team')
+            ->with('first',$first)
+            ->with('about',$about)
+            ->with('whyus',$whyus)
+            ->with('services',$services)
+            ->with('clients',$clients);
+        
     }
     public function blogs(){
         $blogs = Blog::orderby('id','desc')->paginate(8);
