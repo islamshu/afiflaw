@@ -59,7 +59,7 @@
                             @endforeach
                             
                         </div>
-                        {{ $services_section->>links('pagination::bootstrap-4')}}
+                        {{ $services_section->links('pagination::bootstrap-4')}}
 
                     </div><!-- Adds bottom --->
                 </div>
