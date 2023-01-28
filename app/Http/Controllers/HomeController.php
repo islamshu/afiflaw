@@ -228,7 +228,7 @@ class HomeController extends Controller
         ->with('first',$first)
         ->with('about',$about)
         ->with('whyus',$whyus)
-        ->with('services_section',Service::paginate(6))
+        ->with('services_section',Service::paginate(12))
         ->with('services',$services)
         ->with('clients',$clients);
     }
