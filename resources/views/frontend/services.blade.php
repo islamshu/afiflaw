@@ -51,8 +51,7 @@
                                             aria-label="{{ $item->title }} "
                                             data-bg="{{ asset('uploads/'.$item->image) }}"></span>
                                         <h4><strong>{{ $item->title }} </strong></h4>
-                                        {{-- <p>{!! \Illuminate\Support\Str::limit($item->body, $limit = 180, $end = '...') !!}
-                                        </p> --}}
+                                  
                                     </div>
                                 </a>
                             </div>
