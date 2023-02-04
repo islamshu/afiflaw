@@ -30,7 +30,7 @@ class HomeController extends Controller
         $first = Slider::first();
         $about = About::first();
         $whyus = WhyUs::orderby('sort','asc')->get();
-        $services = Service::take(6)->get();
+        $services = Service::take(3)->get();
         $clients = Client::orderby('id','desc')->get();
         $teams = Team::get(); 
 
