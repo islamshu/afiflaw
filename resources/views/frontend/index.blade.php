@@ -123,6 +123,92 @@
                     </div><!-- Adds bottom --->
                 </div>
             </section>
+            <section id="section-62f21b3139" class="s123-module s123-module-services layout-1"
+                data-module-id="62f21b3139461" data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> رؤيتنا
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive">ندرك تماما ان التقدم والتنمية لاتكون الا
+                                        بالتعاون والتكامل والمشاركة الفاعلة بين كافة المؤسسات والقطاعات ، وعلى هذا الاساس
+                                        انطلقت رؤيتنا الى فتح افق ارحب من التعاون والإسهام في تقديم خدمة قانونية متميزة
+                                        لعملائنا سواء على المستوى المحلي والاقليمي والدولي ، ملتزمين بواجبنا المهني و نشر
+                                        الثقافة القانونية وخدمة المجتمع .</span></span><br />
+                                &nbsp;</p>
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-62f21b313qq9" class="s123-module s123-module-services layout-1"
+            data-module-id="62f21b3139461" data-module-type-num="3">
+            <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                <div class="row">
+                    <div class="container moduleTitleContainer">
+                        <div class="row modulesTitle text-center">
+                            <div class="col-xs-12">
+                                <div class="page-header-wrap">
+                                    <H2 id="section-62f21b3139461-title" class="s123-page-header  "> رسالتنا
+                                    </H2>
+                                    <div class="three-angle-down"><i class="fa fa-angle-down"
+                                            aria-hidden="true"></i><i class="fa fa-angle-down"
+                                            aria-hidden="true"></i><i class="fa fa-angle-down"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" data-aos="fade-up">
+                <!-- Adds top --->
+                <!-- Container --->
+                <div class="text-center features-container">
+                    <!-- Categories area -->
+                    <div class="row" style="display:none;">
+                        <div class="s123-categories col-xs-12">
+                            <ul class="items-categories-container">
+                                <li data-categories-filter="all"><a href="#">All</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- Items area -->
+                    <div class="row text-center services-category" data-categories-filter="all">
+                        <p style="text-align:center"><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">أداء واجبنا المهني وتحقيق رؤيتنا من خلال توظيف وتسخير كل ما نملك من خبرات قانونية وادارية لخدمة المتعاملين معنا من الأفراد وحماية حقوقهم ومصالحهم &nbsp;، وتقديم الدعم القانوني اللازم لعملائنا من المؤسسات والشركات ومساعدتهم في &nbsp;تنظيم العمل وتنفيذ الاهداف من خلال باقات من الخدمات المتميزة وفق أعلى معايير الجودة والدقة والامانة مع التزامنا التام بالاسهام الفاعل في تقديم الوعي القانوني والارتقاء بالمجتمع .</span></span><br />
+                            &nbsp;</p>
+                            
+
+                    </div>
+                </div><!-- Adds bottom --->
+            </div>
+        </section>
             <section id="section-5c55ed7f97c7b" class="s123-module s123-module-services layout-4 bg-primary"
                 data-module-id="5c55ed7f97c7b" data-module-type-num="3">
                 <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
@@ -179,7 +265,7 @@
                     </div><!-- Adds bottom --->
                 </div>
             </section>
-        
+
 
             <section id="section-5c56019252933" class="s123-module s123-module-carousel layout-1 bg-primary"
                 data-module-id="5c56019252933" data-module-type-num="13">
