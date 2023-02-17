@@ -168,15 +168,376 @@
                     </div><!-- Adds bottom --->
                 </div>
             </section>
-            <section id="section-62f21b313qq9" style="background: white" class="s123-module s123-module-services layout-1"
-            data-module-id="62f21b3139461" data-module-type-num="3">
+            <section id="section-62f21b313qq9" style="background: white"
+                class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+                data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> رسالتنا
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive">أداء واجبنا المهني وتحقيق رؤيتنا من خلال
+                                        توظيف وتسخير كل ما نملك من خبرات قانونية وادارية لخدمة المتعاملين معنا من الأفراد
+                                        وحماية حقوقهم ومصالحهم &nbsp;، وتقديم الدعم القانوني اللازم لعملائنا من المؤسسات
+                                        والشركات ومساعدتهم في &nbsp;تنظيم العمل وتنفيذ الاهداف من خلال باقات من الخدمات
+                                        المتميزة وفق أعلى معايير الجودة والدقة والامانة مع التزامنا التام بالاسهام الفاعل في
+                                        تقديم الوعي القانوني والارتقاء بالمجتمع .</span></span><br />
+                                &nbsp;</p>
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-62f21b3139www" class="s123-module s123-module-services layout-1"
+                data-module-id="62f21b3139461" data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> عن المكتب
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive">انطلق المكتب في تقديم خدماته القانونية
+                                        عام 2009 م من خلال مركزه الرئيسي بروي وفروعه في المناطق ، وشرف في ذلك الوقت بانضمام
+                                        نخبة من المحامين والمستشارين الاجانب ذوي الكفاءة ، واسهم في تدريب الكثير من المحامين
+                                        العمانيين الذين تبوؤا ارقى المناصب القانونية ، ولقد اكسبتنا الممارسة المهنية في
+                                        الفترة الماضية الكثير من الخبرات والقناعات التي ساعدتنا في صياغة منهجية &nbsp;واضحة
+                                        للعمل مكنتنا من تحقيق نتائج ايجابية وانجازات مشرفة ساهمت في نيل &nbsp;ثقة كل من
+                                        تعامل معنا من الافراد والمؤسسات والشركات التجارية&nbsp;</span></span><br />
+                                &nbsp;</p>
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-62f21b313qdddq9" style="background: white"
+                class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+                data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> استراتيجيتنا في
+                                            العمل
+
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive">ترتكز استراتيجيتنا في العمل على المسارات
+                                        الاتية :<br />
+                                        اولا : تنظيم بيئة العمل الداخلي للمكتب من خلا نظام مؤسسي يعمل وفق اقسام وهيكل اداري
+                                        من خلال فريق عمل يصل في مجموعة الى 10 امن الاداريين والمحامين العمانيين والاستشاريين
+                                        الاجانب<br />
+                                        ثانيا : تقديم الخدمة القانونية للافراد والمقيمين في مختلف مجالات القانون .<br />
+                                        ثالثا : تقديم الخدمة القانونية &nbsp;في الاطار المحلي ودول مجلس التعاون والدول
+                                        العربية والعالم<br />
+                                        رابعا : تقديم الخدمة القانونية للمؤسسات والشركات التجارية من خلال باقات متميزة من
+                                        العروض الخدمية التي توفر الجهد والمال وتضمن تحقيق افضل النتائج لكل من يتعامل معنا
+                                        .<br />
+                                        خامسا :المساهمة في نشر الثقافة القانونية والوعي القانوني لأفراد المجتمع
+                                        &nbsp;</span></span><br />
+                                &nbsp;</p>
+
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-62f21b3139www" class="s123-module s123-module-services layout-1"
+                data-module-id="62f21b3139461" data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> المكاتب المتعاونة
+
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive"> يرتبط المكتب بعلاقات متينه مع مجموعة من
+                                        المكاتب ذات السمعة الطيبه على المستوى المحلي والاقليمي والدولي
+                                        &nbsp;</span></span><br />
+                                &nbsp;</p>
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-62f21b3139wwwqq" style="background: white"
+                class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+                data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> للنساء
+
+
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p style="text-align:center"><span style="font-size:22px"><span
+                                        style="font-family:Comic Sans MS,cursive"> يسعى المكتب لتوفير اقصى درجات الاريحية
+                                        والخصوصية للمتعاملين معه ، ولذلك يوجد بالمكتب فريق عمل مؤهل ومحاميات عمانيات لمساعدة
+                                        العملاء من فئة النساء &nbsp;</span></span><br />
+                                &nbsp;</p>
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-qqqwwqeasdas" class="s123-module s123-module-services layout-1"
+                data-module-id="62f21b3139461" data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> نظام العمل
+                                            بالمكتب
+
+
+
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">تسعدنا زيارة
+                                        موكلينا وابوابنا مفتوحة دون عوائق او حواجز وبكل الرحابة والاحترام والاريحية في
+                                        التعامل فنعتمد في المكتب على نظام المقابلة المباشرة مع الموكل لمناقشة موضوع قضيته او
+                                        استشارته ، ولكن في بعض الحالات كعدم تواجدنا او لظروف ومتطلبات العمل قد يتطلب الامر
+                                        حجز موعد للمقابلة ( موعد لطلب استشارة ) وهذا افضل ويتم يالاتصال الهاتفي بقسم التنسيق
+                                        .</span></span></p>
+
+                            <p><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">في ضوء
+                                        المقابلة والاجتماع مع الموكل او الاطراف يتم تحديد الوقائع ومطالعة المستندات ودراسة
+                                        الموضوع ومن ثم موافاة الموكل بموقفه القانوني وخطة العمل والاجراءات والخطوات التي
+                                        سيقوم بها المكتب في موضوعه والاتعاب المطلوبة .<br />
+                                        عند الاتفاق سيتولى قسم التنسيق استكمال بقية الاجراءات و توقيع عقد الاتعاب واجراء
+                                        التوكيل لدى الكاتب بالعدل ومن ثم سيتولى المكتب مباشرة العمل &nbsp;وتعيين المحامي
+                                        المسؤول الذي سيتولى الاشراف وإفادة الموكل اولا بأول بالتطورات والنتائج .<br />
+                                        تحدد الاتعاب المهنية بالتفاوض المباشر بين الموكل والقسم المالي بالمكتب وتقدر وفقا
+                                        لطبيعة القضية وفي ضوء الجهد المبذول ، وهناك مراعاة خاصة في قضايا الافراد<br />
+                                        اما بالنسبة للمؤسسات والشركات التجارية فهناك دعم خاص للشركات الصغيرة والمتوسطة
+                                        ومرونة في التعامل .<br />
+                                        وبشكل اساسي يتبنى المكتب نظام العقود ، بحيث تقوم الشركة او المؤسسة بالتعاقد مع
+                                        المكتب ليتولى تقديم الخدمة طوال عام كامل او اي فترة اخرى &nbsp;بنظام المقابل الشهري
+                                        الثابت او الدفع السنوي أو نصف سنوي أو ربع سنوي وذلك عبر عروض وباقات من المزايا
+                                        والخدمات تم اعدادها لتتناسب وظروف كل شركة من الشركات ، ( تطلب العروض من المكتب
+                                        مباشرة ).</span></span><br />
+                                &nbsp;</p>
+
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-6a2f21b3139wwwqq" style="background: white"
+                class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+                data-module-type-num="3">
+                <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+                    <div class="row">
+                        <div class="container moduleTitleContainer">
+                            <div class="row modulesTitle text-center">
+                                <div class="col-xs-12">
+                                    <div class="page-header-wrap">
+                                        <H2 id="section-62f21b3139461-title" class="s123-page-header  "> الثقافة القانونية
+
+
+                                        </H2>
+                                        <div class="three-angle-down"><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i><i class="fa fa-angle-down"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <!-- Adds top --->
+                    <!-- Container --->
+                    <div class="text-center features-container">
+                        <!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- Items area -->
+                        <div class="row text-center services-category" data-categories-filter="all">
+                            <p><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">يسعى المكتب الىنشر الثقافة القانونية والتعريف بأهمية القانون ومتطلباته ومقوماته والاجراءات القانونية وذلك بهدف الوعي بالمسائلات القانونية وتبعاتها ، ويقدم خدماته في هذا الشأن لمختلف فئات وشرائح المجتمع للافراد ورواد الاعمال وغيرهم وذلك من خلال نشر المقالات بالمدونة بهذا الموقع ، وبنشر المحتوى الهادف على منصات المكتب بوسائل التواصل الاجتماعي وكذلك من خلال تنظيم الفعاليات التدريبية وتقديم الورش والمحاضرات</span></span></p>
+
+
+                        </div>
+                    </div><!-- Adds bottom --->
+                </div>
+            </section>
+            <section id="section-6a2f21b3139wwwqq" 
+            class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+            data-module-type-num="3">
             <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
                 <div class="row">
                     <div class="container moduleTitleContainer">
                         <div class="row modulesTitle text-center">
                             <div class="col-xs-12">
                                 <div class="page-header-wrap">
-                                    <H2 id="section-62f21b3139461-title" class="s123-page-header  "> رسالتنا
+                                    <H2 id="section-62f21b3139461-title" class="s123-page-header  "> مواعيد العمل بالمكتب
+ 
+
+
                                     </H2>
                                     <div class="three-angle-down"><i class="fa fa-angle-down"
                                             aria-hidden="true"></i><i class="fa fa-angle-down"
@@ -201,14 +562,62 @@
                         </div>
                     </div><!-- Items area -->
                     <div class="row text-center services-category" data-categories-filter="all">
-                        <p style="text-align:center"><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">أداء واجبنا المهني وتحقيق رؤيتنا من خلال توظيف وتسخير كل ما نملك من خبرات قانونية وادارية لخدمة المتعاملين معنا من الأفراد وحماية حقوقهم ومصالحهم &nbsp;، وتقديم الدعم القانوني اللازم لعملائنا من المؤسسات والشركات ومساعدتهم في &nbsp;تنظيم العمل وتنفيذ الاهداف من خلال باقات من الخدمات المتميزة وفق أعلى معايير الجودة والدقة والامانة مع التزامنا التام بالاسهام الفاعل في تقديم الوعي القانوني والارتقاء بالمجتمع .</span></span><br />
-                            &nbsp;</p>
+                        <p style="text-align:right"><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">من السبت الى الخميس&nbsp;<br />
+                            الفترة الصباحية من &nbsp;الثامنة صباحا وحتى الثامنه مساء<br />
+                            يوم الجمعة اجازة&nbsp;<br />
+                            ويمكن للعملاء الراغبين في الحصول على استشارة خارج الدوام الرسمي للمكتب &nbsp;التواصل في اي وقت برسالة على رقم الواتساب ومنصات التواصل الاجتماعي وسيتم الرد عليها في نفس الوقت</span></span></p>
                             
 
                     </div>
                 </div><!-- Adds bottom --->
             </div>
         </section>
+        <section id="section-6a2f21b3139wwwqq" style="background: white"
+        class="s123-module s123-module-services layout-1" data-module-id="62f21b3139461"
+        data-module-type-num="3">
+        <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+            <div class="row">
+                <div class="container moduleTitleContainer">
+                    <div class="row modulesTitle text-center">
+                        <div class="col-xs-12">
+                            <div class="page-header-wrap">
+                                <H2 id="section-62f21b3139461-title" class="s123-page-header  "> فروع المكتب 
+
+
+                                </H2>
+                                <div class="three-angle-down"><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+            <!-- Adds top --->
+            <!-- Container --->
+            <div class="text-center features-container">
+                <!-- Categories area -->
+                <div class="row" style="display:none;">
+                    <div class="s123-categories col-xs-12">
+                        <ul class="items-categories-container">
+                            <li data-categories-filter="all"><a href="#">All</a></li>
+                        </ul>
+                    </div>
+                </div><!-- Items area -->
+                <div class="row text-center services-category" data-categories-filter="all">
+
+                    <p style="text-align:center"><span style="font-size:22px"><span style="font-family:Comic Sans MS,cursive">حاليا يوجد للمكتب فرع في ولاية المصنعة بجانب المحكمة الابتدائية ، ويتولى الفرع تقديم الخدمات القانونية لعملاء المكتب من الافراد والموسسات بمحافظتي شمال وجنوب الباطنة&nbsp;</span></span></p>
+
+
+                </div>
+            </div><!-- Adds bottom --->
+        </div>
+    </section>
+
+
             <section id="section-5c55ed7f97c7b" class="s123-module s123-module-services layout-4 bg-primary"
                 data-module-id="5c55ed7f97c7b" data-module-type-num="3">
                 <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
