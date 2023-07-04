@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="about-container img-box-smaller preview-highlighter"
-                                style="background-image: url({{ asset('uploads/' . $about->image) }})">
+                                style="background-image: url({{ asset('uploads/' . $about->image) }}) ;    background-repeat: no-repeat;background-size: 400px 600px;">
                                 <div
                                     class="responsive-handler fr-view breakable about-description box box-primary box-text-primary">
                                     {!! $about->text !!}
