@@ -762,11 +762,7 @@
 
                             <div class="mapouter" id="contact_63a335b0b09a8" class="map-container" style="width: 100%">
                                 <div class="gmap_canvas" style="width: 100%">
-                                    <iframe
-                                        src="https://maps.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%B9%D9%81%D9%8A%D9%81%20&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                                        id="gmap_canvas" frameborder="0" scrolling="no"
-                                        style="width: 100%; height: 400px;">
-                                    </iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.3364148354326!2d58.09529708042174!3d23.663924423884897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8de5ccb58e143b%3A0x8ac99144fe14cec6!2z2YXZg9iq2Kgg2LPZhNmK2YXYp9mGINin2YTZhdis2YrZhtmKINmE2YTZhdit2KfZhdin2Kkg2YjYp9mE2KfYs9iq2LTYp9ix2KfYqiDYp9mE2YLYp9mG2YjZhtmK2Kk!5e0!3m2!1sen!2sus!4v1688812633619!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     <a href="https://technologg.com/blooket/" style="display:none">blooket</a>
                                     <style>
                                         .mapouter {
