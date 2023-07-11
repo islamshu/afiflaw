@@ -194,9 +194,14 @@
                             data-ie11-classes="" alt="bars">&nbsp;</i></a></div>
             </div>
             <div class="navbar-header"> <a href="/"
-                    class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
+                    class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load">
+                    {{-- <img
                         alt="{!! get_general_value('title') !!}" class="img-responsive"
-                        src="{{ asset('uploads/' . get_general_value('image')) }}"><span
+                        src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
+                        <p style="text-align: center">مكتب سليمان المجيني <br>
+                            للمحاماة والاستشارات القانونية
+                        </p>
+                        <span
                         class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a> </div>
 
         </nav>
