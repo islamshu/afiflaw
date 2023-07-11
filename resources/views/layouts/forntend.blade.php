@@ -140,9 +140,14 @@
 
 
                             <li id="centerLogo19"> <a href="/"
-                                    class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
+                                    class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load">
+                                    {{-- <img
                                         alt="{{ get_general_value('title') }} " class="img-responsive"
-                                        src="{{ asset('uploads/' . get_general_value('image')) }}"><span
+                                        src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
+                                        <p style="text-align: center">مكتب سليمان المجيني <br>
+                                            للمحاماة والاستشارات القانونية
+                                        </p>
+                                        <span
                                         class="website-name website-name-preview-helper ">
                                     </span></a>
                             </li>
