@@ -144,7 +144,7 @@
                                     {{-- <img
                                         alt="{{ get_general_value('title') }} " class="img-responsive"
                                         src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
-                                        <p style="text-align: center">مكتب سليمان المجيني <br>
+                                        <p style="text-align: center;margin-top: 8%;">مكتب سليمان المجيني <br>
                                             للمحاماة والاستشارات القانونية
                                         </p>
                                         <span
@@ -198,7 +198,7 @@
                     {{-- <img
                         alt="{!! get_general_value('title') !!}" class="img-responsive"
                         src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
-                        <p style="text-align: center">مكتب سليمان المجيني <br>
+                        <p style="text-align: center;margin-top: 8%;">مكتب سليمان المجيني <br>
                             للمحاماة والاستشارات القانونية
                         </p>
                         <span
