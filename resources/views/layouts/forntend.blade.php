@@ -106,32 +106,36 @@
             <i class="fa fa-whatsapp my-float"></i>
         </a>
         <div id="websiteHeader">
-            <nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top {{ (request()->is('/')) ? '' : 'opacity-full affix' }}   ">
+            <nav id="mainNav"
+                class="hidden-xs navbar-default navbar-fixed-top {{ request()->is('/') ? '' : 'opacity-full affix' }}   ">
                 <div class="site_container">
                     <div class="navbar-header"> <a href="/"
                             class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
                                 alt="{!! get_general_value('title') !!}" class="img-responsive"
-                                src="{{ asset('uploads/'.get_general_value('image')) }}"><span
+                                src="{{ asset('uploads/' . get_general_value('image')) }}"><span
                                 class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a>
                     </div>
                     <div id="top-menu">
                         <ul class="navPages nav navbar-nav" style="opacity: 1;">
-                            <li class="moduleMenu {{ (request()->is('/')) ? 'active' : '' }} ">
+                            <li class="moduleMenu {{ request()->is('/') ? 'active' : '' }} ">
                                 <a class="page-unique homepageMenu s123-fast-page-load"href="/">
                                     <span class="txt-container">الرئيسية</span>
                                 </a>
                             </li>
-                            <li class="moduleMenu {{ (request()->is('القيم-المباديء')) ? 'active' : '' }} ">
-                                <a class="page-unique homepageMenu s123-fast-page-load"href="{{ route('pren.front') }}">
+                            <li class="moduleMenu {{ request()->is('القيم-المباديء') ? 'active' : '' }} ">
+                                <a
+                                    class="page-unique homepageMenu s123-fast-page-load"href="{{ route('pren.front') }}">
                                     <span class="txt-container">القيم والمباديء </span>
                                 </a>
                             </li>
-                            <li class="moduleMenu {{ (request()->is('/#section-5c5604f252934-title')) ? 'active' : '' }} ">
-                                <a class="page-unique homepageMenu s123-fast-page-load"href="/#section-5c5604f252934-title">
+                            <li
+                                class="moduleMenu {{ request()->is('/#section-5c5604f252934-title') ? 'active' : '' }} ">
+                                <a
+                                    class="page-unique homepageMenu s123-fast-page-load"href="/#section-5c5604f252934-title">
                                     <span class="txt-container">من نحن</span>
                                 </a>
                             </li>
-                        
+
 
 
 
@@ -141,28 +145,33 @@
                                         src="{{ asset('uploads/' . get_general_value('image')) }}"><span
                                         class="website-name website-name-preview-helper ">
                                     </span></a>
-                                </li>
-                                <li class="moduleMenu {{ (request()->is('/#section-5c5604f252934-title')) ? 'active' : '' }} ">
-                                    <a class="page-unique homepageMenu s123-fast-page-load"href="/#section-62f21b3139461-title">
-                                        <span class="txt-container">لماذا نحن </span>
-                                    </a>
-                                </li>
-                                <li class="moduleMenu {{ (request()->is('/فريقنا')) ? 'active' : '' }} ">
-                                    <a class="page-unique homepageMenu s123-fast-page-load"href="{{ route('teams.front') }}">
-                                        <span class="txt-container">فريق عملنا  </span>
-                                    </a>
-                                </li>
-                                <li class="moduleMenu {{ (request()->routeIs('service.front')) ? 'active' : '' }} ">
-                                    <a class="page-unique homepageMenu s123-fast-page-load" href="{{ route('service.front') }}">
-                                        <span class="txt-container">خدماتنا</span>
-                                    </a>
-                                </li>
-                                <li class="moduleMenu {{ (request()->routeIs('blogs.front')) ? 'active' : '' }} ">
-                                    <a class="page-unique homepageMenu s123-fast-page-load" href="{{ route('blogs.front') }}">
-                                        <span class="txt-container">المدونة</span>
-                                    </a>
-                                </li>
-                        
+                            </li>
+                            <li
+                                class="moduleMenu {{ request()->is('/#section-5c5604f252934-title') ? 'active' : '' }} ">
+                                <a
+                                    class="page-unique homepageMenu s123-fast-page-load"href="/#section-62f21b3139461-title">
+                                    <span class="txt-container">لماذا نحن </span>
+                                </a>
+                            </li>
+                            <li class="moduleMenu {{ request()->is('/فريقنا') ? 'active' : '' }} ">
+                                <a
+                                    class="page-unique homepageMenu s123-fast-page-load"href="{{ route('teams.front') }}">
+                                    <span class="txt-container">فريق عملنا </span>
+                                </a>
+                            </li>
+                            <li class="moduleMenu {{ request()->routeIs('service.front') ? 'active' : '' }} ">
+                                <a class="page-unique homepageMenu s123-fast-page-load"
+                                    href="{{ route('service.front') }}">
+                                    <span class="txt-container">خدماتنا</span>
+                                </a>
+                            </li>
+                            <li class="moduleMenu {{ request()->routeIs('blogs.front') ? 'active' : '' }} ">
+                                <a class="page-unique homepageMenu s123-fast-page-load"
+                                    href="{{ route('blogs.front') }}">
+                                    <span class="txt-container">المدونة</span>
+                                </a>
+                            </li>
+
                             </li>
                         </ul>
 
@@ -182,9 +191,9 @@
             <div class="navbar-header"> <a href="/"
                     class="s123-site-logo navbar-brand s123-w-l-s page-unique s123-fast-page-load"><img
                         alt="{!! get_general_value('title') !!}" class="img-responsive"
-                        src="{{ asset('uploads/'.get_general_value('image')) }}"><span
+                        src="{{ asset('uploads/' . get_general_value('image')) }}"><span
                         class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a> </div>
-           
+
         </nav>
         <div id="top-menu-mobile" style="display:none;">
             <ul>
@@ -192,17 +201,19 @@
                 <li class="moduleMenu active"><a class="page-unique homepageMenu" href="/"><span
                             class="txt-container">الرئيسية</span></a></li>
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="/#section-5c5604f252934-title"><span
-                            class="txt-container">من نحن </span></a></li>
-                            <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                                href="/#section-62f21b3139461-title"><span
-                                    class="txt-container">لماذا نحن </span></a></li>
-                                    <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                                        href="خدماتنا"><span
-                                            class="txt-container">خدماتنا  </span></a></li>
-                                            <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                                                href="المدونة"><span
-                                                    class="txt-container">المدونة  </span></a></li>
+                        href="/القيم-المباديء"><span class="txt-container">الفيم والمباديء  </span></a></li>
+                        <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                            href="/#section-5c5604f252934-title"><span class="txt-container">من نحن </span></a></li>
+                <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                        href="/#section-62f21b3139461-title"><span class="txt-container">لماذا نحن </span></a></li>
+
+                        
+                        <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                            href="/فريقنا"><span class="txt-container">فريق عملنا  </span></a></li>
+                <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                        href="/خدماتنا"><span class="txt-container">خدماتنا </span></a></li>
+                <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                        href="المدونة"><span class="txt-container">المدونة </span></a></li>
             </ul>
         </div>
 
@@ -219,29 +230,29 @@
                             </li>
                         @endif
                         @if (get_general_value('facebook') != null)
-                        <li>
-                            <a href="{{ get_general_value('facebook') }}" target="_blank">
-                                <i class="svg-m s123-icon-converter  fa-1x" data-icon-name="facebook"
-                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/facebook.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/facebook.svg?v=2');"
-                                    data-ie11-classes=" fa-1x" alt="facebook system-svg-icons ">&nbsp;</i>
-                            </a>
-                        </li>
+                            <li>
+                                <a href="{{ get_general_value('facebook') }}" target="_blank">
+                                    <i class="svg-m s123-icon-converter  fa-1x" data-icon-name="facebook"
+                                        style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/facebook.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/facebook.svg?v=2');"
+                                        data-ie11-classes=" fa-1x" alt="facebook system-svg-icons ">&nbsp;</i>
+                                </a>
+                            </li>
                         @endif
                         @if (get_general_value('whatsapp') != null)
-                        <li>
-                            <a href="{{ get_general_value('whatsapp') }}" target="_blank">
-                                <i class="svg-m s123-icon-converter  fa-1x" data-icon-name="whatsapp"
-                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/whatsapp.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/whatsapp.svg?v=2');"
-                                    data-ie11-classes=" fa-1x" alt="whatsapp system-svg-icons ">&nbsp;
-                                </i>
-                            </a>
-                        </li>
+                            <li>
+                                <a href="{{ get_general_value('whatsapp') }}" target="_blank">
+                                    <i class="svg-m s123-icon-converter  fa-1x" data-icon-name="whatsapp"
+                                        style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/whatsapp.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/whatsapp.svg?v=2');"
+                                        data-ie11-classes=" fa-1x" alt="whatsapp system-svg-icons ">&nbsp;
+                                    </i>
+                                </a>
+                            </li>
                         @endif
 
 
                     </ul>
                 </div>
-                
+
 
 
                 <div class="clearfix upgrade-website-preview-helper"></div>
