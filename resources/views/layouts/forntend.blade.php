@@ -66,8 +66,8 @@
     <meta name="twitter:description" content="{!! get_general_value('description') !!}" class="s123-js-pjax">
     <meta name="twitter:image" content="{{ asset('uploads/' . $first->image) }}" class="s123-js-pjax">
     <meta name="robots" content="all" class="s123-js-pjax">
-    <link rel="stylesheet" href="{{ asset('front/css/site.css') }}">
-    <link rel="stylesheet" href="{{ asset('front/css/site1.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css_new/site.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css_new/site1.css') }}">
     <style>
         .float {
             position: fixed;
@@ -96,7 +96,7 @@
     <link rel="stylesheet" href="https://cdn-cms-s.f-static.net/versions/2/css/minimize_main_rtl.css?v=n82481"
         type="text/css" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{ asset('front/css/websiteCSS.css') }}" class="reloadable-css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('front/css_new/websiteCSS.css') }}" class="reloadable-css" type="text/css">
 
 </head>
 
@@ -275,17 +275,17 @@
     <!-- JavaScript Translations Object -->
     <!-- JavaScript Translations Object -->
     <!-- CSS Minimize Bottom -->
-    <link rel="stylesheet" class="defer-css" href="{{ asset('front/css/minimize-bottom.css') }}" type="text/css"
+    <link rel="stylesheet" class="defer-css" href="{{ asset('front/css_new/minimize-bottom.css') }}" type="text/css"
         crossorigin="anonymous">
 
-    <script type="text/javascript" src="{{ asset('front/js/cookieconsent.min.js') }}"></script>
-    <script src="{{ asset('front/js/minimize_p1.js') }}"></script>
-    <script src="{{ asset('front/js/minimize_p2.js') }}"></script>
-    <script src="{{ asset('front/js/minimize_p3.js') }}"></script>
-    <script src="{{ asset('front/js/minimize_p4.js') }}"></script>
-    <script src="{{ asset('front/js/js.js') }}"></script>
-    <script src="{{ asset('front/js/minimize_scripts.js') }}"></script> <!-- Website Statistics -->
-    <script src="{{ asset('front/js/generateStats-min.js') }}"></script> <!-- Add Global Google Analytics Code -->
+    <script type="text/javascript" src="{{ asset('front/js_new/cookieconsent.min.js') }}"></script>
+    <script src="{{ asset('front/js_new/minimize_p1.js') }}"></script>
+    <script src="{{ asset('front/js_new/minimize_p2.js') }}"></script>
+    <script src="{{ asset('front/js_new/minimize_p3.js') }}"></script>
+    <script src="{{ asset('front/js_new/minimize_p4.js') }}"></script>
+    <script src="{{ asset('front/js_new/js.js') }}"></script>
+    <script src="{{ asset('front/js_new/minimize_scripts.js') }}"></script> <!-- Website Statistics -->
+    <script src="{{ asset('front/js_new/generateStats-min.js') }}"></script> <!-- Add Global Google Analytics Code -->
     <script type="text/javascript">
         $.ajaxSetup({
             headers: {
