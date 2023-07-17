@@ -1,5 +1,5 @@
 :root {
-    --global_main_color: #e1a123;
+    --global_main_color: #1e1d52;
     --global_main_color_btn_text_color: #ffffff;
     --home_text_color: #ffffff;
     --home_third_background_color: #000000;
@@ -36,10 +36,10 @@
     --menu_pages_side_padding: 15px;
     --menu_pages_letter_spacing: 0.4px;
     --menu_pages_word_spacing: 0px;
-    --menu_thin_border: #e1a123;
+    --menu_thin_border: #1e1d52;
     --mobileMenuTextAlign: center;
     --menu_text_color: #ffffff;
-    --menu_color: #e1a123;
+    --menu_color: #1e1d52;
     --modules_color_text: #000000;
     --modules_color_text_second: #000000;
     --inside_modules_color_text: #000000;

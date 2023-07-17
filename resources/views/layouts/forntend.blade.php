@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="167x167"
         href="https://cdn-cms-s.f-static.net/ready_uploads/pwaScreenLogo/pwaImage.png?width=167&height=167&resizeType=pwaIcon&w=&orderScreen=&websiteID=1858895&tranW=&v=css_r165_37652721">
     <!-- Mobile Browser Address Bar Color -->
-    <meta name="theme-color" content="#e1a123"> <!-- Regular Meta Info -->
+    <meta name="theme-color" content="#1e1d52"> <!-- Regular Meta Info -->
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title class="s123-js-pjax">{{ get_general_value('title') }}</title>
     <meta name="description" content="{!! get_general_value('description') !!}" class="s123-js-pjax">
@@ -264,7 +264,7 @@
                 </div>
 
 
-
+                <div>                        حقوق النشر © {{ now()->format('Y') }} جميع الحقوق محفوظة - <span class="website-name-preview-helper">{{ get_general_value('title') }}</span> </div>
                 <div class="clearfix upgrade-website-preview-helper"></div>
             </div>
     </div>
