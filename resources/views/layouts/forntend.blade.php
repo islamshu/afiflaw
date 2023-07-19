@@ -239,6 +239,20 @@
                                         data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
                             </li>
                         @endif
+                        @if (get_general_value('twitter') != null)
+                        <li><a href="{{ get_general_value('twitter') }}" target="_blank"><i
+                                    class="svg-m s123-icon-converter  fa-1x" data-icon-name="instagram"
+                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2');"
+                                    data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
+                        </li>
+                        @endif
+                        @if (get_general_value('linkedin') != null)
+                        <li><a href="{{ get_general_value('linkedin') }}" target="_blank"><i
+                                    class="svg-m s123-icon-converter  fa-1x" data-icon-name="linkedin"
+                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2');"
+                                    data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
+                        </li>
+                        @endif
                         @if (get_general_value('facebook') != null)
                             <li>
                                 <a href="{{ get_general_value('facebook') }}" target="_blank">

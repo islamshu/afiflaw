@@ -47,6 +47,14 @@
                                                 <input type="string" name="general[instagram]" value="{{ get_general_value('instagram') }}" class="form-control"  >
                                             </div>
                                             <div class="col-md-6">
+                                                <label> رابط التويتر        </label>
+                                                <input type="string" name="general[twitter]" value="{{ get_general_value('twitter') }}" class="form-control"  >
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label> رابط اللينكدان        </label>
+                                                <input type="string" name="general[linkedin]" value="{{ get_general_value('linkedin') }}" class="form-control"  >
+                                            </div>
+                                            <div class="col-md-6">
                                                 <label> البريد الاكتروني         </label>
                                                 <input type="string" name="general[email]" value="{{ get_general_value('email') }}" class="form-control"  >
                                             </div>
