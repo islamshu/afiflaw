@@ -262,7 +262,7 @@
                                 </a>
                             </li>
                         @endif
-                        @if (get_general_value('whatsapp') != null)
+                        {{-- @if (get_general_value('whatsapp') != null)
                             <li>
                                 <a href="{{ get_general_value('whatsapp') }}" target="_blank">
                                     <i class="svg-m s123-icon-converter  fa-1x" data-icon-name="whatsapp"
@@ -271,14 +271,14 @@
                                     </i>
                                 </a>
                             </li>
-                        @endif
+                        @endif --}}
 
 
                     </ul>
                 </div>
 
 
-                <div>                        حقوق النشر © {{ now()->format('Y') }} جميع الحقوق محفوظة - <span class="website-name-preview-helper">{{ get_general_value('title') }}</span> </div>
+                <div>                        حقوق النشر © {{ now()->format('Y') }} جميع الحقوق محفوظة - <span class="website-name-preview-helper">{{ get_general_value('title') }} - للمحاماة والاستشارات القانونية</span> </div>
                 <div class="clearfix upgrade-website-preview-helper"></div>
             </div>
     </div>
