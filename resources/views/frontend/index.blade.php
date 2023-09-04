@@ -18,7 +18,7 @@
                         <div class="side_text_object_position_center_left">
                             <div class="box_container boxStyle_">
                                 <div class="hm-t-c boxBorder  ele_align_left">
-                                    {{-- {!! trans__($first->text, app()->getLocale()) !!} --}}
+                                    {!! trans__($first->text, app()->getLocale()) !!}
                                 </div>
                                 <div class="homepage_goal space_from_bottom_secondGoal ele_align_left secondGoal"
                                     style="position: relative;max-width: 100%;" data-type="buttons">
