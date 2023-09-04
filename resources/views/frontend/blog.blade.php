@@ -7,18 +7,18 @@
                 <div class="breadcrumb-wrap noBackground">
                     <ol class="breadcrumb container">
                         <li><a class="homepageMenu s123-fast-page-load" href="/"><span
-                                    class="txt-container">الرئيسية</span></a></li>
-                        <li><a data-module-id="5cc992d272b87" href="{{ route('blogs.front') }}">المدونة</a>
+                                    class="txt-container">{{trans__('الرئيسية', app()->getLocale())}}</span></a></li>
+                        <li><a data-module-id="5cc992d272b87" href="{{ route('blogs.front') }}">{{trans__('المدونة', app()->getLocale())}}</a>
                         </li>
-                        <li class="active">{{ $blog->title }}  </li>
+                        <li class="active">{{trans__($blog->title, app()->getLocale())}}  </li>
                     </ol>
-                </div>
+                <
                 <div class="noBackground">
                     <div class="container-fluid page_header_style">
                         <div class="container">
                             <div class="row modulesTitle text-center">
                                 <div class="col-xs-12 page-header-wrap">
-                                    <h1 id="section-5cc992d272b87-title" class="s123-page-header "> {{ $blog->title }} </h1>
+                                    <h1 id="section-5cc992d272b87-title" class="s123-page-header "> {{trans__($blog->title, app()->getLocale())}} </h1>
                                     <div class="three-angle-down"><i class="fa fa-angle-down" aria-hidden="true"></i><i
                                             class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down"
                                             aria-hidden="true"></i></div>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="meta">
                     <div class="reading-time">
-                        <center>{{ $blog->vistor }} قراءة دقيقة</center>
+                        <center>{{ $blog->vistor }} {{trans__('قراءة دقيقة', app()->getLocale())}}  </center>
                     </div>
                 </div>
                 <div class="container">
@@ -39,15 +39,35 @@
                                     src="{{ asset('uploads/'.$blog->image) }}"
                                     alt="{{ $blog->title }}  "> </div>
                             <div class="responsive-handler fr-view breakable">
+                                {{-- {{ dd($blog->body) }} --}}
+                                @php
+                                    $chunkSize = 1000;
+                                    $textChunks = str_split($blog->body, $chunkSize);
+
+                                    // Initialize an array to hold the translated chunks
+                                    $translatedChunks = [];
+
+                                    // Translate each chunk and store the translations
+                                    foreach ($textChunks as $chunk) {
+                                        $translatedChunk = trans__($chunk, app()->getLocale());
+                                        $translatedChunks[] = $translatedChunk;
+                                    }
+
+                                    // Combine the translated chunks into a single translated text
+                                    $translatedText = implode('', $translatedChunks);
+
+                                    // Output the translated text
+                                    // echo $translatedText;
+                                @endphp
                                 <div>
-                                    {!! $blog->body !!}
+                                    {!! $translatedText!!}
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="clearfix" style="margin-top:32px;"></div>
-                   <h2>مقالات ذات صلة :  </h2> 
+                   <h2>{{trans__('مقالات ذات صلة', app()->getLocale())}}   :  </h2> 
                     <br>
                     <div class="row related-article-container">
                         @foreach (App\Models\Blog::where('id','!=',$blog->id)->take(3)->orderby('id','desc')->get() as $item)
@@ -60,7 +80,7 @@
                                 </div>
                                 <div class="details">
                                     <div class="title"> <a class="s123-fast-page-load"
-                                            href="{{ route('single_blog', $item->slug ) }}">{{ $item->title }}</a> </div>
+                                            href="{{ route('single_blog', $item->slug ) }}">{{trans__($item->title, app()->getLocale())}}</a> </div>
                                 </div>
                             </div>
                         </div>

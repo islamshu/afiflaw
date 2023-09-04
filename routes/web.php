@@ -7,6 +7,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactContoller;
 use App\Http\Controllers\FteureController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LangController;
 use App\Http\Controllers\PrinciplesController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ServiceController;
@@ -27,6 +28,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+ 
+Route::get('lang/home', [LangController::class, 'index']);
+Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');
 Route::get('/','App\Http\Controllers\HomeController@home')->name('homee');
 Route::get('/product/{id}','App\Http\Controllers\HomeController@product')->name('product');
 

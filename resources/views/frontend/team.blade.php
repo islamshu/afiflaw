@@ -8,7 +8,7 @@ data-module-id="5c56019252933" data-module-type-num="13" style="margin-bottom: 7
             <div class="row modulesTitle text-center">
                 <div class="col-xs-12">
                     <div class="page-header-wrap">
-                        <H2 id="section-5c56019252933-title" class="s123-page-header  ">فريق عملنا 
+                        <H2 id="section-5c56019252933-title" class="s123-page-header  ">{{ trans__('فريق عملنا', app()->getLocale()) }}  
                         </H2>
                         <div class="three-angle-down"><i class="fa fa-angle-down"
                                 aria-hidden="true"></i><i class="fa fa-angle-down"
@@ -28,7 +28,7 @@ data-module-id="5c56019252933" data-module-type-num="13" style="margin-bottom: 7
             <div class="s123-categories col-xs-12">
                 <ul class="items-categories-container">
                     <li data-categories-filter="gggiD8gggiA7gggiD9gggi84gggiD9gggi83gggiD9gggi84"><a
-                            href="#">الكل</a></li>
+                            href="#">{{ trans__('الكل', app()->getLocale()) }}</a></li>
                 </ul>
             </div>
         </div>
@@ -46,10 +46,10 @@ data-module-id="5c56019252933" data-module-type-num="13" style="margin-bottom: 7
                                     data-unique-id="5f31316471d90" style="display: inline-block;"><img
                                         class="img-responsive lazyload"
                                         data-src="{{ asset('uploads/' . $item->image) }}"
-                                        alt="{{ $item->title }}" title="{{ $item->title }}"></div>
+                                        alt="{{trans__($item->title, app()->getLocale())}}" title="{{trans__($item->title, app()->getLocale())}}"></div>
                             </a>
-                            <h2>{{ $item->title }}</h2>
-                            <p>{{ $item->job }}</p>
+                            <h2>{{trans__($item->title, app()->getLocale())}}</h2>
+                            <p>{{ trans__($item->job, app()->getLocale()) }}</p>
                         </div>
                     @endforeach
 

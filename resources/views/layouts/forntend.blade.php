@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar" class=" home_page home_page_design s_layout21   ">
+<html dir="ltr" lang="ar" class=" home_page home_page_design s_layout21   ">
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,13 @@
     <meta name="description" content="{!! get_general_value('description') !!}" class="s123-js-pjax">
     <meta name="keywords" content="{!! get_general_value('description') !!}" class="s123-js-pjax">
     <style>
-        /* arabic */
+        /* @if (app()->getLocale() == 'en')
+        *:not(#section-5c5604f252934) {
+        direction: ltr;
+         }
+        @endif */
+       
+
         @font-face {
             font-family: 'Almarai';
             font-style: normal;
@@ -115,24 +121,37 @@
                                 src="{{ asset('uploads/' . get_general_value('image')) }}"><span
                                 class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a>
                     </div>
+                    <div class="col-md-1">
+                        <select class="form-select changeLang">
+                            <option value="ar" {{ session()->get('locale') == 'ar' ? 'selected' : '' }}>العربية
+                            </option>
+                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English
+                            </option>
+                            <option value="fr" {{ session()->get('locale') == 'fr' ? 'selected' : '' }}>France
+                            </option>
+                            <option value="es" {{ session()->get('locale') == 'es' ? 'selected' : '' }}>Spanish
+                            </option>
+                        </select>
+                    </div>
                     <div id="top-menu">
                         <ul class="navPages nav navbar-nav" style="opacity: 1;">
                             <li class="moduleMenu {{ request()->is('/') ? 'active' : '' }} ">
                                 <a class="page-unique homepageMenu s123-fast-page-load"href="/">
-                                    <span class="txt-container">الرئيسية</span>
+                                    <span class="txt-container">{{ trans__('الرئيسية', app()->getLocale()) }}</span>
                                 </a>
                             </li>
                             <li class="moduleMenu {{ request()->is('القيم-المباديء') ? 'active' : '' }} ">
                                 <a
                                     class="page-unique homepageMenu s123-fast-page-load"href="{{ route('pren.front') }}">
-                                    <span class="txt-container">القيم والمباديء </span>
+                                    <span
+                                        class="txt-container">{{ trans__('القيم والمباديء', app()->getLocale()) }}</span>
                                 </a>
                             </li>
                             <li
                                 class="moduleMenu {{ request()->is('/#section-5c5604f252934-title') ? 'active' : '' }} ">
                                 <a
                                     class="page-unique homepageMenu s123-fast-page-load"href="/#section-5c5604f252934-title">
-                                    <span class="txt-container">من نحن</span>
+                                    <span class="txt-container">{{ trans__('من نحن', app()->getLocale()) }}</span>
                                 </a>
                             </li>
 
@@ -144,36 +163,38 @@
                                     {{-- <img
                                         alt="{{ get_general_value('title') }} " class="img-responsive"
                                         src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
-                                        <p style="text-align: center;margin-top: 8%;">مكتب سليمان المجيني <br>
-                                            للمحاماة والاستشارات القانونية
-                                        </p>
-                                        <span
-                                        class="website-name website-name-preview-helper ">
-                                    </span></a>
+                                    <p style="text-align: center;margin-top: 8%;">
+                                        {{ trans__('مكتب سمليان المجيني', app()->getLocale()) }} <br>
+                                        {{ trans__('للمحاماة والاستشارات القانونية', app()->getLocale()) }}
+                                    </p>
+                                    <span class="website-name website-name-preview-helper ">
+                                    </span>
+                                </a>
                             </li>
                             <li
                                 class="moduleMenu {{ request()->is('/#section-5c5604f252934-title') ? 'active' : '' }} ">
                                 <a
                                     class="page-unique homepageMenu s123-fast-page-load"href="/#section-62f21b3139461-title">
-                                    <span class="txt-container">لماذا نحن </span>
+                                    <span class="txt-container">{{ trans__('لماذا نحن', app()->getLocale()) }} </span>
                                 </a>
                             </li>
                             <li class="moduleMenu {{ request()->is('/فريقنا') ? 'active' : '' }} ">
                                 <a
                                     class="page-unique homepageMenu s123-fast-page-load"href="{{ route('teams.front') }}">
-                                    <span class="txt-container">فريق عملنا </span>
+                                    <span class="txt-container">{{ trans__('فريق عملنا', app()->getLocale()) }}
+                                    </span>
                                 </a>
                             </li>
                             <li class="moduleMenu {{ request()->routeIs('service.front') ? 'active' : '' }} ">
                                 <a class="page-unique homepageMenu s123-fast-page-load"
                                     href="{{ route('service.front') }}">
-                                    <span class="txt-container">خدماتنا</span>
+                                    <span class="txt-container">{{ trans__('خدماتنا', app()->getLocale()) }}</span>
                                 </a>
                             </li>
                             <li class="moduleMenu {{ request()->routeIs('blogs.front') ? 'active' : '' }} ">
                                 <a class="page-unique homepageMenu s123-fast-page-load"
                                     href="{{ route('blogs.front') }}">
-                                    <span class="txt-container">المدونة</span>
+                                    <span class="txt-container">{{ trans__('المدونة', app()->getLocale()) }}</span>
                                 </a>
                             </li>
 
@@ -198,32 +219,40 @@
                     {{-- <img
                         alt="{!! get_general_value('title') !!}" class="img-responsive"
                         src="{{ asset('uploads/' . get_general_value('image')) }}"> --}}
-                        <p style="text-align: center;margin-top: 8%;">مكتب سليمان المجيني <br>
-                            للمحاماة والاستشارات القانونية
-                        </p>
-                        <span
-                        class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span></a> </div>
+                    <p style="text-align: center;margin-top: 8%;">
+                        {{ trans__('مكتب سليمان المجيني', app()->getLocale()) }} <br>
+                        {{ trans__('للمحاماة والاستشارات القانونية', app()->getLocale()) }}
+                    </p>
+                    <span class="website-name website-name-preview-helper ">{!! get_general_value('title') !!}</span>
+                </a> </div>
 
         </nav>
         <div id="top-menu-mobile" style="display:none;">
             <ul>
                 <!-- Website Menu Pages -->
                 <li class="moduleMenu active"><a class="page-unique homepageMenu" href="/"><span
-                            class="txt-container">الرئيسية</span></a></li>
+                            class="txt-container">{{ trans__('الرئيسية', app()->getLocale()) }}</span></a></li>
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="/القيم-المباديء"><span class="txt-container">الفيم والمباديء  </span></a></li>
-                        <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                            href="/#section-5c5604f252934-title"><span class="txt-container">من نحن </span></a></li>
+                        href="/القيم-المباديء"><span
+                            class="txt-container">{{ trans__('القيم والمباديء', app()->getLocale()) }} </span></a>
+                </li>
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="/#section-62f21b3139461-title"><span class="txt-container">لماذا نحن </span></a></li>
+                        href="/#section-5c5604f252934-title"><span
+                            class="txt-container">{{ trans__('من نحن', app()->getLocale()) }} </span></a></li>
+                <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                        href="/#section-62f21b3139461-title"><span
+                            class="txt-container">{{ trans__('لماذا نحن', app()->getLocale()) }} </span></a></li>
 
-                        
-                        <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                            href="/فريقنا"><span class="txt-container">فريق عملنا  </span></a></li>
+
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="/خدماتنا"><span class="txt-container">خدماتنا </span></a></li>
+                        href="/فريقنا"><span class="txt-container">{{ trans__('فريق عملنا', app()->getLocale()) }}
+                        </span></a></li>
                 <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
-                        href="المدونة"><span class="txt-container">المدونة </span></a></li>
+                        href="/خدماتنا"><span class="txt-container">{{ trans__('خدماتنا', app()->getLocale()) }}
+                        </span></a></li>
+                <li class="moduleMenu" data-menu-module-id="5ce4bd11b63e1"><a class="page-unique"
+                        href="المدونة"><span class="txt-container">{{ trans__('المدونة', app()->getLocale()) }}
+                        </span></a></li>
             </ul>
         </div>
 
@@ -240,18 +269,18 @@
                             </li>
                         @endif
                         @if (get_general_value('twitter') != null)
-                        <li><a href="{{ get_general_value('twitter') }}" target="_blank"><i
-                                    class="svg-m s123-icon-converter  fa-1x" data-icon-name="instagram"
-                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2');"
-                                    data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
-                        </li>
+                            <li><a href="{{ get_general_value('twitter') }}" target="_blank"><i
+                                        class="svg-m s123-icon-converter  fa-1x" data-icon-name="instagram"
+                                        style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/twitter.svg?v=2');"
+                                        data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
+                            </li>
                         @endif
                         @if (get_general_value('linkedin') != null)
-                        <li><a href="{{ get_general_value('linkedin') }}" target="_blank"><i
-                                    class="svg-m s123-icon-converter  fa-1x" data-icon-name="linkedin"
-                                    style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2');"
-                                    data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
-                        </li>
+                            <li><a href="{{ get_general_value('linkedin') }}" target="_blank"><i
+                                        class="svg-m s123-icon-converter  fa-1x" data-icon-name="linkedin"
+                                        style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/linkedin.svg?v=2');"
+                                        data-ie11-classes=" fa-1x" alt="instagram system-svg-icons ">&nbsp;</i></a>
+                            </li>
                         @endif
                         @if (get_general_value('facebook') != null)
                             <li>
@@ -278,7 +307,10 @@
                 </div>
 
 
-                <div>                        حقوق النشر © {{ now()->format('Y') }} جميع الحقوق محفوظة - <span class="website-name-preview-helper">{{ get_general_value('title') }} - للمحاماة والاستشارات القانونية</span> </div>
+                <div> {{ trans__('حقوق النشر', app()->getLocale()) }} © {{ now()->format('Y') }}
+                    {{ trans__('جميع الحقوق محفوظة', app()->getLocale()) }} - <span
+                        class="website-name-preview-helper">{{ get_general_value('title') }} - للمحاماة والاستشارات
+                        القانونية</span> </div>
                 <div class="clearfix upgrade-website-preview-helper"></div>
             </div>
     </div>
@@ -289,8 +321,8 @@
     <!-- JavaScript Translations Object -->
     <!-- JavaScript Translations Object -->
     <!-- CSS Minimize Bottom -->
-    <link rel="stylesheet" class="defer-css" href="{{ asset('front/css_new/minimize-bottom.css') }}" type="text/css"
-        crossorigin="anonymous">
+    <link rel="stylesheet" class="defer-css" href="{{ asset('front/css_new/minimize-bottom.css') }}"
+        type="text/css" crossorigin="anonymous">
 
     <script type="text/javascript" src="{{ asset('front/js_new/cookieconsent.min.js') }}"></script>
     <script src="{{ asset('front/js_new/minimize_p1.js') }}"></script>
@@ -348,6 +380,13 @@
                 $(".print-error-msg").find("ul").append('<li>' + value + '</li>');
             });
         }
+    </script>
+    <script type="text/javascript">
+        var url = "{{ route('changeLang') }}";
+
+        $(".changeLang").change(function() {
+            window.location.href = url + "?lang=" + $(this).val();
+        });
     </script>
 
 

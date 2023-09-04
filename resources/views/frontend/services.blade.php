@@ -10,7 +10,7 @@
                             <div class="row modulesTitle text-center">
                                 <div class="col-xs-12">
                                     <div class="page-header-wrap">
-                                        <h1 id="section-5c55ed7f97c7b-title" class="s123-page-header  ">خدماتنا</h1>
+                                        <h1 id="section-5c55ed7f97c7b-title" class="s123-page-header  ">{{ trans__('خدماتنا', app()->getLocale()) }}</h1>
                                         <div class="three-angle-down"><i class="fa fa-angle-down" aria-hidden="true"></i><i
                                                 class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down"
                                                 aria-hidden="true"></i></div>
@@ -48,10 +48,10 @@
                                     <div class="service-item s123-box-top-primary-border s123-box-flying-up preview-highlighter box-primary"
                                         data-unique-id="5c55ed81bf06b"><span
                                             class="fa-stack fa-4x img-circle bgLazyload" role="img"
-                                            aria-label="{{ $item->title }} "
+                                            aria-label="{{ trans__($item->title, app()->getLocale()) }} "
                                             data-bg="{{ asset('uploads/'.$item->image) }}"></span>
-                                        <h4><strong>{{ $item->title }} </strong></h4>
-                                  
+                                        <h4><strong>{{ trans__($item->title, app()->getLocale()) }}</strong></h4>
+                                        
                                     </div>
                                 </a>
                             </div>

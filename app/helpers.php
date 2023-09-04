@@ -10,3 +10,10 @@ function get_general_value($key)
    }
    return '';
 }
+function trans__($key,$local){
+    if($local != 'ar'){
+        return GoogleTranslate::trans($key,$local);
+    }else{
+        return $key;
+    }
+}

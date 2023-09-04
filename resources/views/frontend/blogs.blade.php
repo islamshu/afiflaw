@@ -10,7 +10,7 @@
                             <div class="row modulesTitle text-center">
                                 <div class="col-xs-12">
                                     <div class="page-header-wrap">
-                                        <h1 id="section-5cc992d272b87-title" class="s123-page-header  ">المدونة</h1>
+                                        <h1 id="section-5cc992d272b87-title" class="s123-page-header  ">{{trans__('المدونة', app()->getLocale())}}</h1>
                                         <div class="three-angle-down"><i class="fa fa-angle-down" aria-hidden="true"></i><i
                                                 class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down"
                                                 aria-hidden="true"></i></div>
@@ -31,22 +31,22 @@
                                                     href="{{ route('single_blog',$item->slug) }}"
                                                     class="s123-fast-page-load"><img class="lazyload entered loaded"
                                                         data-src="{{ asset('uploads/' . $item->image) }}"
-                                                        style="max-width: 100%;max-height: 250px" alt="{{ $item->title }}"
+                                                        style="max-width: 100%;max-height: 250px" alt="{{trans__($item->title, app()->getLocale())}}"
                                                         data-ll-status="loaded" src="{{ asset('uploads/' . $item->image) }}"></a>
                                             </div>
                                             <div class="event-details">
                                                 <div class="event-title">
                                                     <h2><a href="{{ route('single_blog',$item->slug) }}"
                                                             class="s123-fast-page-load"
-                                                            aria-label="{{ $item->title }}">{{ $item->title }}
+                                                            aria-label="{{trans__($item->title, app()->getLocale())}}">{{trans__($item->title, app()->getLocale())}}
                                                         </a></h2>
                                                 </div>
                                                 <div class="event-content box-text-primary">
-                                                    <p>{!! \Illuminate\Support\Str::limit($item->body, $limit = 180, $end = '...') !!}</p><a
+                                                    <p>{!! trans__(\Illuminate\Support\Str::limit($item->body, $limit = 180, $end = '...'), app()->getLocale()) !!}</p><a
                                                         href="{{ route('single_blog',$item->slug) }}"
-                                                        class="btn btn-primary s123-fast-page-load" aria-label="اقرأ المزيد">اقرأ
-                                                        المزيد</a>
-                                                    <div class="reading-time">{{ $item->vistor }} : قراءة دقيقة</div>
+                                                        class="btn btn-primary s123-fast-page-load" aria-label="اقرأ المزيد">{{ trans__('اقرأ المزيد', app()->getLocale()) }}
+                                                        </a>
+                                                    <div class="reading-time">{{ $item->vistor }} :  {{ trans__('قراءة دقيقة ', app()->getLocale()) }}</div>
                                                 </div>
                                             </div>
                                         </div>
